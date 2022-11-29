@@ -38,6 +38,7 @@ public class Calendar_2 {
 			//driver.findElement(By.id("first_date_picker")).click();
 			driver.findElement(By.xpath("/html/body /div[3]/table/tbody/tr[2]/td[5]/a")).click();
 			System.out.println("Here the date was selected");
+			
 		} 
 		
 		catch (ParseException e) {
